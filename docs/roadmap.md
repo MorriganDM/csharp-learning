@@ -14,7 +14,8 @@
 ### Fluxo de controle
 - [x] `if` / `else` e comparação `=` versus `==`
 - [x] `for`: índices, condições, incrementos, acumulação
-- [ ] `while` e `do-while` — **próxima prática**
+- [x] `while` — contagem regressiva de 10 a 1 executada e validada
+- [ ] `do-while` e revisão de condições de parada para entradas inesperadas
 - [ ] `break` e `continue` — **próxima prática**
 - [ ] `switch` e expressões `switch`
 
