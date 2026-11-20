@@ -59,3 +59,18 @@ The source code exercises were completed by the student locally. This log record
 
 ### Next session
 Start `while`, then `break` and `continue`, one short implementation exercise at a time.
+
+## 2026-11-20 — Exercise 06: `while` countdown (session close)
+
+### Implemented by the student
+- Created `countdown.cs` under `exercises/while/` locally.
+- Initialized `countdown = 10`; used `while (countdown != 0)`, printed the value, and decremented with `countdown--`.
+- After the loop, printed `Decolando!`. The terminal output confirmed 10 down to 1 followed by `Decolando!`.
+
+### Evidence and follow-up
+- The loop terminates for the tested positive initial value. Syntax and control flow were validated by execution.
+- The condition `!= 0` merits a later edge-case review for negative initial values; `> 0` expresses the intended positive-countdown rule more directly.
+- No additional exercise was assigned for this session, as requested.
+
+### Next session
+Practice `break` and `continue`, then progressively expand control-flow exercises. Keep debugging as a transversal skill.
