@@ -40,3 +40,22 @@ Continue the array-boundary debugging exercise, then progress according to demon
 
 ### Scope note
 The source code exercises were completed by the student locally. This log records the observed terminal outputs and discussion; the repository exercise files were not modified by this documentation update.
+
+## 2026-11-20 — Debugging practice and C# fundamentals checkpoint
+
+### Activities and evidence
+- Created/used a conventional `DebugPractice` Console project after file-based debugging controls failed to advance.
+- Inspected `i`, `max` and `nums` in Locals; stepped through a `for` and observed a comparison branch, increment and the loop condition.
+- Learned to distinguish F5 (start/continue), F10 (step over) and F11 (step into) in a paused debugger.
+- Discussed deliberate breakpoint placement based on a hypothesis, tracing ERP API values and interpreting an external API's percentage contract.
+- In `DiscountDebug`, reproduced an invalid discount of 400 for 20% of 200, then changed the percentage conversion and confirmed `discount = 40` with the debugger.
+- In the multi-order example, identified the condition for discount rates >= 50 and used F5 to reach the fourth order, F11 to enter `CalculateFinalPrice`, and step-through to observe the correctly calculated discount being overwritten.
+- Student considered the final debugging challenge complete; the full post-fix output for all four orders was not shown.
+
+### Observed progress and remaining gaps
+- More independent tracing and hypothesis verification; understood why the location of the breakpoint matters.
+- Further work needed on the call stack, debugging more complex flows and regression tests.
+- The session should now move forward rather than assigning another introductory debugging exercise.
+
+### Next session
+Start `while`, then `break` and `continue`, one short implementation exercise at a time.
